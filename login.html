@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style.css">
+    <title>login form</title>
+</head>
+<body>
+    <!-- login form -->
+    <form name="loginForm" id="loginForm" method="post" action="/login">
+        <div id="main">
+            <header>Login form</header><hr>
+            <label for="username">your username or email:</label><br>
+            <input type="text" name="username" id="username" required autocomplete="false" autofocus placeholder="username or email"><br><br>
+            <label for="password">your password:</label><br>
+            <input type="password" name="password" id="password" required placeholder="password">
+            <br><br>
+            <button type="submit" id="login">Login</button>
+            <p>Not a memeber <a href=http://localhost:3000/login/`${register.html}`>register</a></p>
+            
+        </div>
+    </form>
+</body>
+</html>

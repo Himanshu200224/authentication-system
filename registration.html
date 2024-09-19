@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Authentication-System</title>
+    <link rel="stylesheet" href="./public/style.css">
+</head>
+
+<body>
+    <form name="registrationForm" id="registrationForm" method="post" action="/register">
+        <div id="main">
+            <header>Sign Up</header><hr>
+            <label for="username">your username:</label><br>
+            <input type="text" name="username" id="username" required placeholder="enter username" autofocus autocomplete="false"><br>
+            <label for="email">your email:</label><br>
+            <input type="email" name="email" id="email" placeholder="your mail here" required  autocomplete="false"><br>
+            <label for="password">your password:</label><br>
+            <input type="password" name="password" id="password" required placeholder="enter password"><br>
+            <label for="confirm password">confirm password:</label><br>
+            <input type="password" name="confirm password" id="confirm password" required placeholder="confirm password"><br><br>
+            <button type="submit" onclick="" id="registerUser">register</button>
+            <p>Already a user then? <a href="http://localhost:3000/login.html">Login</a></p>
+        </div>
+    </form>
+</body>
+
+</html>
